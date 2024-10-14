@@ -16,6 +16,10 @@
             <Entry x:Name="txt_etanol" Placeholder="R$"> </Entry>
             <Label Text="Preço da gasolina: "></Label>
             <Entry x:Name="txt_gasolina" Placeholder="R$ "></Entry>
+            <Label Text="Modelo do veículo: "></Label>
+            <Entry x:Name="txt_modelo" Placeholder="Ex.: Corolla. "></Entry>
+            <Label Text="Marca do veículo: "></Label>
+            <Entry x:Name="txt_marca" Placeholder="Ex.: Toyota. "></Entry>
             <Button Text="Qual compensa mais?" Clicked="Button_Clicked"></Button>
 
 
